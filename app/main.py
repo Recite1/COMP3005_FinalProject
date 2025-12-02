@@ -1,7 +1,7 @@
-from member import register_member, login_member, update_profile, update_goal, add_metric, book_training, reschedule_training,cancel_training, join_group, view_dashboard
-from trainer import register_trainer, login_trainer, view_sessions, view_classes, member_lookup, set_availability
-from admin import add_room, create_class, create_invoice, record_payment, add_equipment, list_equipment, update_equipment_issues
-from database import get_connection, remove_connection 
+from app.member import register_member, login_member, update_profile, update_goal, add_metric, book_training, reschedule_training,cancel_training, join_group, view_dashboard
+from app.trainer import register_trainer, login_trainer, view_sessions, view_classes, member_lookup, set_availability
+from app.admin import add_room, create_class, create_invoice, record_payment, add_equipment, list_equipment, update_equipment_issues
+from app.database import get_connection, remove_connection 
    
 def main():
     connection = get_connection()

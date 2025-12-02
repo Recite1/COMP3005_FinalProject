@@ -1,5 +1,5 @@
 import psycopg2
-from validators import get_valid_time_input, validate_time
+from app.validators import get_valid_time_input, validate_time
 
 def add_room(connection):
   room_name = input("Room name: ")

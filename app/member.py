@@ -1,7 +1,7 @@
 import psycopg2
 import random
 from datetime import datetime
-from validators import get_valid_time_input, validate_time
+from app.validators import get_valid_time_input, validate_time
 
 # ---------- MEMBER FUNCTIONS ----------
 def register_member(connection):

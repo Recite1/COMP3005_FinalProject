@@ -4,6 +4,7 @@
 **Library:** psycopg2
 **DB:** PostgreSQL  
 
+**Yotube Video Link: ** https://www.youtube.com/watch?v=GgsHWR2Avl8
 ---
 ## SETPUP INSTRUCTIONS
 ## 1. Create and populate the database

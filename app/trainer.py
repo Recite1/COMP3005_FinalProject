@@ -1,6 +1,6 @@
 import psycopg2
 from datetime import datetime
-from validators import get_valid_time_input, validate_time
+from app.validators import get_valid_time_input, validate_time
 
 def register_trainer(connection):
     print("\n---------Trainer Registration--------")
